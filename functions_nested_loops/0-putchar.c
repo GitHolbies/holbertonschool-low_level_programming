@@ -2,8 +2,13 @@
 
 
 int main () {
-int ch;
-for(ch = 1  ; ch <= 5  ; ch++) {
+char ch=0; 
+if (ch=0) {
+ch=_putchar;
+}
+else {
+ch=0;
+}
 putchar(ch);
 }
 return(0);
